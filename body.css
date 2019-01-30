@@ -1,0 +1,17 @@
+.body{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border:0;
+  width: auto;
+}
+
+@media(min-width: 1000px){
+  .body{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border:0;
+  width: auto;
+  padding-right: 250px;
+}
