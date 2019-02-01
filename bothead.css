@@ -1,0 +1,20 @@
+.headbot{
+ height: 175px;
+ padding:0;
+ margin:0 ;
+ 
+ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgam0LAbHuRwVzqjHN0lUwUWXxiaIOXAqTKYnslkF0iVIHsyj2");
+}
+
+
+.headh{
+ color: red;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-color: red;
+ border-style: solid;
+ border-width: 0px 0px 1px 0px;
+ padding: 0;
+ margin: 0;
+}

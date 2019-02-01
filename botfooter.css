@@ -1,0 +1,13 @@
+.fotbot{
+	background-color: #6FFE02;
+	min-height: 150px;
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+.fottext{
+  display: flex;
+  flex-direction: column-reverse;
+
+}
