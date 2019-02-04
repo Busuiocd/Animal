@@ -1,6 +1,6 @@
 .navbot{
 	background-color: green;
-	height: 175px;
+	/*height: 175px;*/
 	padding: 0;
 	position: relative;
 }
@@ -18,7 +18,6 @@
 .navitem{
 	display: flex;
 	height: 50px;
-	/*width: 250px;*/
 	background: green;
 	padding: 0;
 	margin: 0;
