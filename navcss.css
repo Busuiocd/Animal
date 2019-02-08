@@ -1,13 +1,26 @@
 
 .navb{
-    position: absolute;
     top: 0;
     left: 0;
-    z-index: 100;
+    z-index: 2;
     width: 100%;
     padding: 50px 0;
+    color: #6c757d;
+    background-color:#6c757d; 
+    font-family: "Roboto", arial, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1.8;
+    position: absolute;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
 
 }
+ 
+/*.navb li{
+    color: #6c757d;
+} */
+
 
 .navcontainer {
 	display: flex;
@@ -24,6 +37,11 @@
 
 .navitem{
   margin-left: auto!important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+  /*margin-top: 16px;*/
+  margin-left: 81px;
+
 }
 
 
