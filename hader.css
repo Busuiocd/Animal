@@ -1,0 +1,52 @@
+
+
+.photo{
+	background-image: url(hero_5.jpg);
+	background-size: cover;
+    min-height: 700px;
+    width: 100%;
+    position: relative;
+    background-position: 0% 0px;
+}
+.photo:before{
+    background: rgba(0, 0, 0, 0.45);
+    position: absolute;
+    height: 100vh;
+    content: "";
+    min-height: 700px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.photoitem{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    padding-top: 25%;
+    padding-bottom: 10%;
+}
+
+.textphoto{
+	font-size: 80px;
+    font-family:serif;
+    color: white;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.icon {
+	width: 100px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    z-index: 1;
+    width: 25px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+
+}
